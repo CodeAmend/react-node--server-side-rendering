@@ -18,6 +18,6 @@ const config = {
     path: path.resolve(__dirname, 'build')
   },
   externals: [webpackNodeExternals()]
-}
+};
 
 module.exports = merge(baseConfig, config);
